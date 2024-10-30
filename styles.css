@@ -1,6 +1,10 @@
 * {
     margin: 0;
 }
+body {
+    padding: 1em 3em;
+}
+/* Main Home */
 .title {
     text-align: center;
     font-size: 4rem;
@@ -10,21 +14,54 @@
     margin: 10px 10px 0px 10px;
     border: 1px solid black;
 }
-ul li a {
+.unorder-main .link-main a {
     text-decoration: none;
     color: white;
     font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
-ul li {
+.unorder-main .link-main {
     list-style: none;
     padding: 1em;
     text-align: center;
 }
-ul {
+.unorder-main {
     padding: 2em;
     border: 1px solid black;
     background-color: black;
     margin: 0px 10px 0px 10px;
+}
+
+/* Lasagna Page */
+
+.title-lasagna {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em 0;
+}
+.image-container {
+    margin: 25px auto;
+    padding: 10px;
+    text-align: center;
+}
+.lasagna-description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+.ingredients-text {
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.ingredients-unorder li {
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ingredients-unorder {
+    margin-bottom: 20px;
 }
